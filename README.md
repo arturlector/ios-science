@@ -3,7 +3,7 @@
 
 General:
 --------
-- Что такое `полиморфизм`? 
+- Что такое `полиморфизм`?  [[+]](https://gist.github.com/arthurigberdin/f59ac4b1e360b8d4e673)
 
 - ```Что такое *инкапсуляция? Что такое *нарушение инкапсуляции?``` [[+]](https://gist.github.com/arthurigberdin/73dde36439b947e28764)
 
