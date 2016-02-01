@@ -1,6 +1,10 @@
 Вопросы на собеседование iOS-разработчика
 ==
 
+Вопросов: 130 | Ответов: 3
+--------
+
+
 General:
 --------
 - Что такое `полиморфизм`?  [[+]](https://gist.github.com/arthurigberdin/f59ac4b1e360b8d4e673)
@@ -16,6 +20,9 @@ General:
 - Патерны `поведения и взаимодействия объектов (Behavioral): Observer(Notification, KVO), Memento(Archiving+UserDefaults), Chain of Recponsibility, Command(Target-Action mechanism)`?
 - Что такое `responder chain`?
 - Как работают `push нотификации`?
+- `DRY`, `KISS`, `SOLID`?
+- IoC, Dependency Injection?
+
 
 Objective-C, Foundation:
 ------------------------
@@ -89,6 +96,7 @@ Networking:
 Multithreading:
 ---------------
 - Что такое `GCD`? Где используется `GCD`? Как `GCD` связан с многопоточностью? [[+]](https://gist.github.com/arthurigberdin/c812974bc5e058444f8d)
+- `NSOperation` vs `GCD`?
 - Что такое `deadlock`?
 - Что такое `livelock`?
 - Что такое `семафор (semafor)`?
