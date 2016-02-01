@@ -88,6 +88,7 @@ Networking:
 
 Multithreading:
 ---------------
+- Что такое `GCD`? Где используется `GCD`? Как `GCD` связан с многопоточностью? [[+]](https://gist.github.com/arthurigberdin/c812974bc5e058444f8d)
 - Что такое `deadlock`?
 - Что такое `livelock`?
 - Что такое `семафор (semafor)`?
