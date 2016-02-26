@@ -8,8 +8,9 @@
 General:
 --------
 - Терминология ООП в общем (`класс, ivar, сообщение, метод, экземпляр класса, суперкласс`) ? [[+]]()
-- Из чего состоит платформа iOS (`Core OS, Core Service, Media, Cocoa Touch`) ? [[+]]()
-- Компоненты iOS платформы для разработчика: `Tools, Language, Frameworks, Design Strategy`? [[+]]()
+
+- Из чего состоит платформа iOS? Внутренние компоненты платформы: (`Core OS, Core Service, Media, Cocoa Touch`) ? Внешние компоненты платформы: `Tools, Language, Frameworks, Design Strategy`? [[+]](https://gist.github.com/arthurigberdin/64ec746833750355d2de)
+
 - Что такое heap (куча)?
 
 - Что такое `полиморфизм`?  [[+]](https://gist.github.com/arthurigberdin/f59ac4b1e360b8d4e673)
@@ -50,7 +51,7 @@ Objective-C, Foundation:
 - `(NSAutoreleasePool)` Что такое `runLoop`, кодга он используется? `(timers, nsurlconnection ...)`
 - Что такое `делегат (delegate)`? как его создать и использовать?
 - Как представлены `Си-структуры` (CGRect, CGSize, CGPoint) в Objective-C?
-- Чем объект Objective-С отличается от Си-структуры, что такое структура в С.
+- Чем объект Objective-С отличается от Си-структуры, что такое структура в C?
 - Какие существуют `root классы` в iOS? Для чего нужны `root классы`? Корневые классы: NSObject, NSProxy? Как работает proxy?
 - Как имитировать `множественное наследование`?
 - `Тип id`. Что случится во время компиляции если мы посылаем сообщение объекту `типа id`? Что случится во время выполнения если этот метод существует? 
