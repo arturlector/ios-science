@@ -1,7 +1,7 @@
 Вопросы на собеседование iOS-разработчика
 ==
 
-Вопросов: 145 | Ответов: 4
+Вопросов: 145 | Ответов: 6
 --------
 
 
@@ -50,8 +50,9 @@ Objective-C, Foundation:
 - Как запустить `поток`? Что первым нужно сделать при запуске `потока`?
 - `(NSAutoreleasePool)` Что такое `runLoop`, кодга он используется? `(timers, nsurlconnection ...)`?
 - Что такое `делегат (delegate)`? как его создать и использовать?
-- Коммуникационные паттерны: `NSNotificationCenter` vs `Delegates` vs `KVO` (`Notification` vs `Delegates` vs `Observing`)?
-- Что такое `AppDelegate`?
+- Коммуникационные паттерны: `NSNotificationCenter` vs `Delegates` vs `KVO` 
+(`Notification` vs `Delegates` vs `Observing`)? [[+]](https://gist.github.com/arthurigberdin/3b1e2a1598efa76a5655)
+- Что такое `AppDelegate`? [+]()
 - Управление колбэками (`callbacks`): `Selectors` vs `Delegate prototocls` vs `Blocks`?
 - `Blocks`. Лучшие практики?
 - Как представлены `Си-структуры` (CGRect, CGSize, CGPoint) в Objective-C?
@@ -66,7 +67,7 @@ Objective-C, Foundation:
 - Можно ли добавить `ivar` в категорию?
 - Когда лучше использовать `категорию`, а когда `наследование`? `категория vs наследование`?
 - Что такое `notifications (уведомления)`? как мы должны их использовать?
-- Какая разница м/у использование `делегатов (delegation)` и `нотификейшенов (notification)`?
+- Какая разница м/у использование `делегатов (delegation)` и `нотификейшенов (notification)`? [[+]](https://gist.github.com/arthurigberdin/3b1e2a1598efa76a5655)
 - В чем разница между `NSArray и NSMutableArray`? непотоко-безопасный NSMutableArray?
 - Чем отличается `NSSet от NSArray`? Какие `операции` происходят быстро в `NSSet` и какие в `NSArray`?
 - `Формальный и неформальный (informal)` протокол? Протоколы (protocols): основные отличия между c#/java интерфейсами и Objective-C протоколами. Что делать в случае если класс не реализует какой-то метод из протокола?
