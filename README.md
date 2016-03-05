@@ -50,8 +50,10 @@ Objective-C, Foundation:
 - Как запустить `поток`? Что первым нужно сделать при запуске `потока`?
 - `(NSAutoreleasePool)` Что такое `runLoop`, кодга он используется? `(timers, nsurlconnection ...)`?
 - Что такое `делегат (delegate)`? как его создать и использовать?
-- `NSNotificationCenter` vs `Delegates` vs `KVO` (`Notification` vs `Delegates` vs `Observing`)?
+- Коммуникационные паттерны: `NSNotificationCenter` vs `Delegates` vs `KVO` (`Notification` vs `Delegates` vs `Observing`)?
 - Что такое `AppDelegate`?
+- Управление колбэками (`callbacks`): `Selectors` vs `Delegate prototocls` vs `Blocks`?
+- `Blocks`. Лучшие практики?
 - Как представлены `Си-структуры` (CGRect, CGSize, CGPoint) в Objective-C?
 - Чем объект Objective-С отличается от Си-структуры, что такое структура в C?
 - Какие существуют `root классы` в iOS? Для чего нужны `root классы`? Корневые классы: NSObject, NSProxy? Как работает proxy?
