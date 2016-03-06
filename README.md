@@ -1,7 +1,7 @@
 Вопросы на собеседование iOS-разработчика
 ==
 
-Вопросов: 145 | Ответов: 8
+Вопросов: 145 | Ответов: 11
 --------
 
 
@@ -18,7 +18,9 @@ General:
 - ```Что такое *инкапсуляция? Что такое *нарушение инкапсуляции?``` [[+]](https://gist.github.com/arthurigberdin/73dde36439b947e28764)
 
 - Чем `абстрактный` класс отличается от `интерфейса`?
+ 
 - Расскажите о `паттерне MVC`. Чем отличается `пассивная` модель от `активной`?
+
 - Реализация `синглтона (Singleton)` в `ARC` и в `non-ARC`?
 - Какие еще `паттерны` знаете?
 - Паттерны `порождающие, создания объектов (Creational): Singleton, Abstarct Factory`?
@@ -49,10 +51,10 @@ Objective-C, Foundation:
 - Что такое `селектор (selector)`? Как его вызвать? как отложить вызов селектора? Что делать если селектор имеет много параметров? `(NSInvocation)` Как запустить селектор во второстепенном `(фоновом) потоке`?
 - Как запустить `поток`? Что первым нужно сделать при запуске `потока`?
 - `(NSAutoreleasePool)` Что такое `runLoop`, кодга он используется? `(timers, nsurlconnection ...)`?
-- Что такое `делегат (delegate)`? как его создать и использовать?
+- Что такое `делегат (delegate)`? как его создать и использовать? [[+]](https://gist.github.com/arthurigberdin/780eafb581fb2f72dec3)
 - Коммуникационные паттерны: `NSNotificationCenter` vs `Delegates` vs `KVO` 
 (`Notification` vs `Delegates` vs `Observing`)? [[+]](https://gist.github.com/arthurigberdin/3b1e2a1598efa76a5655)
-- Что такое `AppDelegate`? [+]()
+- Что такое `AppDelegate`? [[+]](https://gist.github.com/arthurigberdin/780eafb581fb2f72dec3)
 - Управление колбэками (`callbacks`): `Selectors` vs `Delegate prototocls` vs `Blocks`?
 - `Blocks`. Лучшие практики?
 - Как представлены `Си-структуры` (CGRect, CGSize, CGPoint) в Objective-C?
