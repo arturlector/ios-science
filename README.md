@@ -1,17 +1,17 @@
 Вопросы на собеседование iOS-разработчика
 ==
 
-Вопросов: 145 | Ответов: 6
+Вопросов: 145 | Ответов: 8
 --------
 
 
 General:
 --------
-- Терминология ООП в общем (`класс, ivar, сообщение, метод, экземпляр класса, суперкласс`) ? [[+]]()
+- Терминология ООП в общем (`класс, ivar, сообщение, метод, экземпляр класса, суперкласс`) ? [[+]](https://gist.github.com/arthurigberdin/8028a1881b18a120ce9e)
 
 - Из чего состоит платформа iOS? Внутренние компоненты платформы: (`Core OS, Core Service, Media, Cocoa Touch`) ? Внешние компоненты платформы: `Tools, Language, Frameworks, Design Strategy`? [[+]](https://gist.github.com/arthurigberdin/64ec746833750355d2de)
 
-- Что такое heap (куча)?
+- Что такое `heap` (куча)? [[+]](https://gist.github.com/arthurigberdin/0f82aa713439a93f1974)
 
 - Что такое `полиморфизм`?  [[+]](https://gist.github.com/arthurigberdin/f59ac4b1e360b8d4e673)
 
