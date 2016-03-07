@@ -1,7 +1,7 @@
 Вопросы на собеседование iOS-разработчика
 ==
 
-Вопросов: 154 | Ответов: 18
+Вопросов: 157 | Ответов: 20
 --------
 
 
@@ -16,6 +16,9 @@ General:
 - Чем `абстрактный класс` отличается от `интерфейса`? [[+]](https://gist.github.com/arthurigberdin/2d959bb91c454859010c)
 - Расскажите о `паттерне MVC`. Чем отличается `пассивная` модель от `активной`?[[+]](https://gist.github.com/arthurigberdin/ea1827b7628019a0dc4e)
 - Реализация `синглтона (Singleton)` в `ARC` и в `non-ARC`?[[+]](https://gist.github.com/arthurigberdin/3670dbea7d6c2e0f10f9)
+- Назовите основные отличия `синглтона` от `статического класса`, и когда следует использовать один, а когда другой? [[+]]()
+- Как пересоздать синглтон? Можно ли обнулить объект синглтона? [[+]](https://gist.github.com/arthurigberdin/8820aa764b0c179eea65)
+- Что такое сериализация объекта?
 - Какие еще `паттерны` знаете?
 - Паттерны `порождающие, создания объектов (Creational): Singleton, Abstarct Factory`?
 - Паттерны `структурные (Structural): MVC, Decorator(Categories, Delegation), Adapter(Delegation), Facade, Composite`?
