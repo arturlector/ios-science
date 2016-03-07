@@ -1,30 +1,20 @@
 Вопросы на собеседование iOS-разработчика
 ==
 
-Вопросов: 152 | Ответов: 15
+Вопросов: 154 | Ответов: 15
 --------
 
 
 General:
 --------
 - ООП в терминах (`класс, ivar, сообщение, метод, экземпляр класса, суперкласс`) ? [[+]](https://gist.github.com/arthurigberdin/8028a1881b18a120ce9e)
-
 - Из чего состоит платформа iOS (Внутренние компоненты платформы)?  (`Core OS, Core Service, Media, Cocoa Touch`) ? Внешние компоненты платформы: `Tools, Language, Frameworks, Design Strategy`? [[+]](https://gist.github.com/arthurigberdin/64ec746833750355d2de)
-
 - Что такое `heap` (куча)? [[+]](https://gist.github.com/arthurigberdin/0f82aa713439a93f1974)
-
 - Что такое `полиморфизм`?  [[+]](https://gist.github.com/arthurigberdin/f59ac4b1e360b8d4e673)
-
-- Что такое `инкапсуляция`? 
-
-- Что такое `нарушение инкапсуляции`? [[+]](https://gist.github.com/arthurigberdin/73dde36439b947e28764)
-
+- Что такое `инкапсуляция`? Что такое `нарушение инкапсуляции`? [[+]](https://gist.github.com/arthurigberdin/73dde36439b947e28764)
 - Какие быстрые клавиши используешь? [[+]](https://gist.github.com/arthurigberdin/2b37c29e96363b5e3468)
-
 - Чем `абстрактный класс` отличается от `интерфейса`?
- 
 - Расскажите о `паттерне MVC`. Чем отличается `пассивная` модель от `активной`?
-
 - Реализация `синглтона (Singleton)` в `ARC` и в `non-ARC`?
 - Какие еще `паттерны` знаете?
 - Паттерны `порождающие, создания объектов (Creational): Singleton, Abstarct Factory`?
@@ -36,9 +26,12 @@ General:
 - Принципы `KISS`? 
 - Принципы `SOLID`?
 - Что такое `IoC`? 
-- Dependency Injection?
+- Что такое Dependency Injection?
 - Игра в `испорченный телефон`?
 - Игра в `разбитые окна`?
+- Что такое `VIPER`?
+- Что такое `MVVM`?
+- Что такое `TDD`?
 
 Objective-C, Foundation:
 ------------------------
