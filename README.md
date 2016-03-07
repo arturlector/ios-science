@@ -9,7 +9,7 @@ General:
 --------
 - ООП в терминах (`класс, ivar, сообщение, метод, экземпляр класса, суперкласс`)? [[+]](https://gist.github.com/arthurigberdin/8028a1881b18a120ce9e)
 - Из чего состоит платформа iOS (Внутренние компоненты платформы)?  (`Core OS, Core Service, Media, Cocoa Touch`)? Внешние компоненты платформы: `Tools, Language, Frameworks, Design Strategy`? [[+]](https://gist.github.com/arthurigberdin/64ec746833750355d2de)
-- Что такое `heap` (куча)? [[+]](https://gist.github.com/arthurigberdin/0f82aa713439a93f1974)
+- Что такое `куча (heap)`? [[+]](https://gist.github.com/arthurigberdin/0f82aa713439a93f1974)
 - Что такое `полиморфизм`?  [[+]](https://gist.github.com/arthurigberdin/f59ac4b1e360b8d4e673)
 - Что такое `инкапсуляция`? Что такое `нарушение инкапсуляции`? [[+]](https://gist.github.com/arthurigberdin/73dde36439b947e28764)
 - Какие быстрые клавиши используешь? [[+]](https://gist.github.com/arthurigberdin/2b37c29e96363b5e3468)
