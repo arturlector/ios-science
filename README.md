@@ -1,18 +1,18 @@
 Вопросы на собеседование iOS-разработчика
 ==
 
-Вопросов: 160 | Ответов: 32
+Вопросов: 160 | Ответов: 36
 --------
 
 
 General:
 --------
 - ООП в терминах (`класс, ivar, сообщение, метод, экземпляр класса, суперкласс`)? [[+]](https://gist.github.com/arthurigberdin/8028a1881b18a120ce9e)
-- Из чего состоит платформа iOS (Внутренние компоненты платформы)?  (`Core OS, Core Service, Media, Cocoa Touch`)? Внешние компоненты платформы: `Tools, Language, Frameworks, Design Strategy`? [[+]](https://gist.github.com/arthurigberdin/64ec746833750355d2de)
+- `Внутренние и внешние компоненты` платформы iOS? [[+]](https://gist.github.com/arthurigberdin/64ec746833750355d2de)
 - Что такое `куча (heap)`? [[+]](https://gist.github.com/arthurigberdin/0f82aa713439a93f1974)
 - Что такое `полиморфизм`?  [[+]](https://gist.github.com/arthurigberdin/f59ac4b1e360b8d4e673)
 - Что такое `инкапсуляция`? Что такое `нарушение инкапсуляции`? [[+]](https://gist.github.com/arthurigberdin/73dde36439b947e28764)
-- Какие быстрые клавиши используешь? [[+]](https://gist.github.com/arthurigberdin/2b37c29e96363b5e3468)
+- Какие `быстрые клавиши` посоветуешь использовать? [[+]](https://gist.github.com/arthurigberdin/2b37c29e96363b5e3468)
 - Чем `абстрактный класс` отличается от `интерфейса`? [[+]](https://gist.github.com/arthurigberdin/2d959bb91c454859010c)
 - Расскажите о `паттерне MVC`. Чем отличается `пассивная` модель от `активной`?[[+]](https://gist.github.com/arthurigberdin/ea1827b7628019a0dc4e)
 - Реализация `синглтона (Singleton)` в `ARC` и в `non-ARC`?[[+]](https://gist.github.com/arthurigberdin/3670dbea7d6c2e0f10f9)
@@ -72,11 +72,11 @@ Objective-C, Foundation:
 - Можно ли добавить `ivar` в категорию? [[+]](https://gist.github.com/arthurigberdin/26b85da45706a4a2aa34)
 - Когда лучше использовать `категорию`, а когда `наследование`? [[+]](https://gist.github.com/arthurigberdin/5b09bcc3c6947ba25329)
 - Что такое `notifications (уведомления)`? как мы должны их использовать?
-- Какая разница м/у использование `делегатов (delegation)` и `нотификейшенов (notification)`? [[+]](https://gist.github.com/arthurigberdin/3b1e2a1598efa76a5655)
+- Какая разница между использованием `делегатов (delegation)` и `нотификейшенов (notification)`? [[+]](https://gist.github.com/arthurigberdin/ee09ee7d0ae237a3fdc3) [[+]](https://gist.github.com/arthurigberdin/3b1e2a1598efa76a5655)
 - В чем разница между `NSArray и NSMutableArray`? непотоко-безопасный NSMutableArray? [[+]](https://gist.github.com/arthurigberdin/ed8aa7dfaea3b28ef467)
 - Чем отличается `NSSet от NSArray`? Какие `операции` происходят быстро в `NSSet` и какие в `NSArray`? [[+]](https://gist.github.com/arthurigberdin/82557661c44d81e85bc1)
-- `Формальный и неформальный (informal)` протокол? `Протоколы (protocols)`: основные отличия между c#/java интерфейсами и Objective-C протоколами? Что делать в случае если класс не реализует какой-то метод из протокола?
-- Есть ли `приватные и защищенные` методы в Objective-C?
+- `Формальный и неформальный (informal)` протокол? `Протоколы (protocols)`: основные отличия между c#/java интерфейсами и Objective-C протоколами? Что делать в случае если класс не реализует какой-то метод из протокола? [[+]](https://gist.github.com/arthurigberdin/da734c67aa6fad9f1d68)
+- Есть ли `приватные и защищенные` методы в Objective-C? [[+]](https://gist.github.com/arthurigberdin/c09a5a930ec34d86d091)
 - Что такое `быстрое перечисление (fast enumeration)`? 
 - Что такое `KVO`? Когда его нужно использовать? Методы для обозревания объектов? Работает ли `KVO с instance переменными (полями)` объекта?
 - Что такое `KVC`? Когда его нужно использовать?
