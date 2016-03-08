@@ -1,7 +1,7 @@
 Вопросы на собеседование iOS-разработчика
 ==
 
-Вопросов: 158 | Ответов: 22
+Вопросов: 160 | Ответов: 24
 --------
 
 
@@ -17,7 +17,7 @@ General:
 - Расскажите о `паттерне MVC`. Чем отличается `пассивная` модель от `активной`?[[+]](https://gist.github.com/arthurigberdin/ea1827b7628019a0dc4e)
 - Реализация `синглтона (Singleton)` в `ARC` и в `non-ARC`?[[+]](https://gist.github.com/arthurigberdin/3670dbea7d6c2e0f10f9)
 - Назовите основные отличия `синглтона` от `статического класса`, и когда следует использовать один, а когда другой? [[+]](https://gist.github.com/arthurigberdin/9eea0fa48405f36e592d)
-- Как пересоздать синглтон? Можно ли обнулить объект синглтона? [[+]](https://gist.github.com/arthurigberdin/8820aa764b0c179eea65)
+- Как пересоздать синглтон? Можно ли `обнулить объект синглтона`? [[+]](https://gist.github.com/arthurigberdin/8820aa764b0c179eea65)
 - Что такое сериализация объекта?
 - Какие еще `паттерны` знаете? Классификация паттернов? [[+]](https://gist.github.com/arthurigberdin/824796346653351a86d9)
 - Паттерны `порождающие, создания объектов (Creational): Singleton, Abstract Factory`? [[+]]()
@@ -25,7 +25,7 @@ General:
 - Паттерны `поведения и взаимодействия объектов (Behavioral): Observer(Notification, KVO), Memento(Archiving+UserDefaults), Chain of Recponsibility, Command(Target-Action mechanism)`? [[+]]()
 - Паттерн `MVC vs MVP vs MVVM`? https://habrahabr.ru/post/215605/
 - Что такое `responder chain`?
-- Как работают `push нотификации`?
+- Как работают `push нотификации`? [[+]](https://gist.github.com/arthurigberdin/dffa57f7268d99f96aad)
 - Принципы `DRY`?
 - Принципы `KISS`? 
 - Принципы `SOLID`?
@@ -36,12 +36,13 @@ General:
 - Что такое `VIPER`?
 - Что такое `MVVM`?
 - Что такое `TDD`?
+- Что такое `DDD`?
 
 Objective-C, Foundation:
 ------------------------
 - Опишите `основные понятия ОО программирования` в терминах Objective-C (`интерфейс, реализация, свойства, протоколы,` и т.д)?
 - Что такое `свойство (property)`? [[+]](https://gist.github.com/arthurigberdin/d9105edc388f25ebe1ae)
-- Что такое назначеный `инициализатор (designated initializer)`, напишите любой элементарный инициализатор, почему он так выглядит? (имеется ввиду `if (self  = [super ...])`)?
+- Что такое `назначенный инициализатор (designated initializer)`? Приведите пример назначенного инициализатора (имеется ввиду `if (self  = [super ...])`)? [[+]](https://gist.github.com/arthurigberdin/ec6f06ba14ba9d175252)
 - Суть `рантайма (Runtime), отправление сообщения`? Как работает Runtime? [[+]](https://gist.github.com/arthurigberdin/811ab333c46b4fa2a46f)
 - Объявление `свойств (property)` `(retain, assign, nonatomic, readonly, copy)`. 
 - С подвохом: вопрос о несуществующем параметре `atomic`, что он означает? 
@@ -54,14 +55,14 @@ Objective-C, Foundation:
 - Как запустить `поток`? Что первым нужно сделать при запуске `потока`?
 - `(NSAutoreleasePool)` Что такое `runLoop`, кодга он используется? `(timers, nsurlconnection ...)`?
 - Что такое `делегат (delegate)`? как его создать и использовать? [[+]](https://gist.github.com/arthurigberdin/780eafb581fb2f72dec3)
-- Коммуникационные паттерны: `NSNotificationCenter` vs `Delegates` vs `KVO` 
-(`Notification` vs `Delegates` vs `Observing`)? [[+]](https://gist.github.com/arthurigberdin/3b1e2a1598efa76a5655)
-- Что такое `AppDelegate`? [[+]](https://gist.github.com/arthurigberdin/780eafb581fb2f72dec3)
-- Управление колбэками (`callbacks`): `Selectors` vs `Delegate prototocls` vs `Blocks`?
+- В чем отличия коммуникационных паттернов? (`Notification` vs `Delegates` vs `Observing`)? [[+]](https://gist.github.com/arthurigberdin/3b1e2a1598efa76a5655)
+- Что такое `AppDelegate`? Зачем он нужен? [[+]](https://gist.github.com/arthurigberdin/780eafb581fb2f72dec3)
+- Управление `колбэками (callbacks)`: `Selectors` vs `Delegate prototocls` vs `Blocks`?
 - `Blocks`. Лучшие практики?
 - Как представлены `Си-структуры` (CGRect, CGSize, CGPoint) в Objective-C?
 - Чем объект Objective-С отличается от Си-структуры, что такое структура в C?
-- Какие существуют `root классы` в iOS? Для чего нужны `root классы`? Корневые классы: NSObject, NSProxy? Как работает proxy?
+- Какие существуют `root классы` в iOS? Для чего нужны `root классы`? Корневые классы: NSObject, NSProxy? 
+- Как работает `proxy`?
 - Как имитировать `множественное наследование`?
 - `Тип id`. Что случится во время компиляции если мы посылаем сообщение объекту `типа id`? Что случится во время выполнения если этот метод существует? 
 - Что произойдет здесь (компиляция  + время выполнения): `NSString *s = [NSNumber numberWithInt:3]; int i = [s intValue];`
@@ -69,7 +70,7 @@ Objective-C, Foundation:
 - Что происходит с методом после того, как он не нашелся в объекте класса, которому его вызвали? Цепочка ответсвенности, что происходит с методом после того как он не нашелся в объекте класса, которому его вызвали (в сторону forwardInvocation:)?
 - Чем `категория` отличается от `расширения` (extension, наименованная категория)? `категория vs extension`?
 - Можно ли добавить `ivar` в категорию?
-- Когда лучше использовать `категорию`, а когда `наследование`? `категория vs наследование`?
+- Когда лучше использовать `категорию`, а когда `наследование`? [[+]](https://gist.github.com/arthurigberdin/5b09bcc3c6947ba25329)
 - Что такое `notifications (уведомления)`? как мы должны их использовать?
 - Какая разница м/у использование `делегатов (delegation)` и `нотификейшенов (notification)`? [[+]](https://gist.github.com/arthurigberdin/3b1e2a1598efa76a5655)
 - В чем разница между `NSArray и NSMutableArray`? непотоко-безопасный NSMutableArray?
