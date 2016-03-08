@@ -1,7 +1,7 @@
 Вопросы на собеседование iOS-разработчика
 ==
 
-Вопросов: 157 | Ответов: 21
+Вопросов: 158 | Ответов: 22
 --------
 
 
@@ -19,10 +19,11 @@ General:
 - Назовите основные отличия `синглтона` от `статического класса`, и когда следует использовать один, а когда другой? [[+]](https://gist.github.com/arthurigberdin/9eea0fa48405f36e592d)
 - Как пересоздать синглтон? Можно ли обнулить объект синглтона? [[+]](https://gist.github.com/arthurigberdin/8820aa764b0c179eea65)
 - Что такое сериализация объекта?
-- Какие еще `паттерны` знаете?
-- Паттерны `порождающие, создания объектов (Creational): Singleton, Abstarct Factory`?
-- Паттерны `структурные (Structural): MVC, Decorator(Categories, Delegation), Adapter(Delegation), Facade, Composite`?
-- Патерны `поведения и взаимодействия объектов (Behavioral): Observer(Notification, KVO), Memento(Archiving+UserDefaults), Chain of Recponsibility, Command(Target-Action mechanism)`?
+- Какие еще `паттерны` знаете? Классификация паттернов? [[+]](https://gist.github.com/arthurigberdin/824796346653351a86d9)
+- Паттерны `порождающие, создания объектов (Creational): Singleton, Abstract Factory`? [[+]]()
+- Паттерны `структурные (Structural): MVC, Decorator(Categories, Delegation), Adapter(Delegation), Facade, Composite`? [[+]]()
+- Паттерны `поведения и взаимодействия объектов (Behavioral): Observer(Notification, KVO), Memento(Archiving+UserDefaults), Chain of Recponsibility, Command(Target-Action mechanism)`? [[+]]()
+- Паттерн `MVC vs MVP vs MVVM`? https://habrahabr.ru/post/215605/
 - Что такое `responder chain`?
 - Как работают `push нотификации`?
 - Принципы `DRY`?
