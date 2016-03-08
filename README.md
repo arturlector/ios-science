@@ -1,7 +1,7 @@
 Вопросы на собеседование iOS-разработчика
 ==
 
-Вопросов: 160 | Ответов: 31 
+Вопросов: 160 | Ответов: 32
 --------
 
 
@@ -54,16 +54,16 @@ Objective-C, Foundation:
 - Что такое `селектор (selector)`? Как его вызвать? как отложить вызов селектора? Что делать если селектор имеет много параметров? `(NSInvocation)` Как запустить селектор во второстепенном `(фоновом) потоке`?
 - Как запустить `поток`? Что первым нужно сделать при запуске `потока`?
 - `(NSAutoreleasePool)` Что такое `runLoop`, кодга он используется? `(timers, nsurlconnection ...)`?
-- Что такое `делегат (delegate)`? как его создать и использовать? [[+]](https://gist.github.com/arthurigberdin/780eafb581fb2f72dec3)
+- Что такое `делегат (delegate)`? как его создать и использовать? [[+]](https://gist.github.com/arthurigberdin/1304fb056c85f3fd8535)
 - В чем отличия коммуникационных паттернов? (`Notification` vs `Delegates` vs `Observing`)? [[+]](https://gist.github.com/arthurigberdin/3b1e2a1598efa76a5655)
 - Что такое `AppDelegate`? Зачем он нужен? [[+]](https://gist.github.com/arthurigberdin/780eafb581fb2f72dec3)
 - Управление `колбэками (callbacks)`: `Selectors` vs `Delegate prototocls` vs `Blocks`?
 - `Blocks`. Лучшие практики?
 - Как представлены `Си-структуры` (CGRect, CGSize, CGPoint) в Objective-C?
 - Чем объект Objective-С отличается от Си-структуры, что такое структура в C?
-- Какие существуют `root классы` в iOS? Для чего нужны `root классы`? Корневые классы: NSObject, NSProxy? 
+- Какие существуют `root классы` в iOS? Для чего нужны `root классы`? [[+]](https://gist.github.com/arthurigberdin/83032db4d6d18f9bf399)
 - Как работает `proxy`?
-- Как имитировать `множественное наследование`?
+- Как имитировать `множественное наследование`? [[+]](https://gist.github.com/arthurigberdin/de9765cf851e47379cf2)
 - `Тип id`. Что случится во время компиляции если мы посылаем сообщение объекту `типа id`? Что случится во время выполнения если этот метод существует? 
 - Что произойдет здесь (компиляция  + время выполнения): `NSString *s = [NSNumber numberWithInt:3]; int i = [s intValue];`
 - Что такое `указатель isa`? Для чего он нужен?
