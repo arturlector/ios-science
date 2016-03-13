@@ -1,7 +1,7 @@
 Вопросы на собеседование iOS-разработчика
 ==
 
-Вопросов: 166 | Ответов: 39
+Вопросов: 167 | Ответов: 41
 --------
 
 
@@ -61,7 +61,7 @@ Objective-C, Foundation:
 - Что такое `AppDelegate`? Зачем он нужен? [[+]](https://gist.github.com/arthurigberdin/780eafb581fb2f72dec3)
 - Управление `колбэками (callbacks)`: `Selectors` vs `Delegate prototocls` vs `Blocks`?
 - `Blocks`. Лучшие практики?
-- Как `использовать` self внутри блоков?
+- Как `использовать` self внутри блоков? Приведите пример `retain cycle` в блоке? [[+]](https://gist.github.com/arthurigberdin/67a2e19c09f3c26eb926)
 - Как представлены `Си-структуры` (CGRect, CGSize, CGPoint) в Objective-C?
 - Чем объект Objective-С отличается от Си-структуры, что такое структура в C?
 - Какие существуют `root классы` в iOS? Для чего нужны `root классы`? [[+]](https://gist.github.com/arthurigberdin/83032db4d6d18f9bf399)
@@ -91,6 +91,7 @@ Objective-C, Foundation:
 - Почему нам не следует вызывать `instance методы в методе initialize`?
 - `NSCoding, archiving`?
 - Протокол `NSCopying`, почему мы не можем просто использовать любой собственный объект в качестве ключа в словарях (NSDictionary) , что нужно сделать чтобы решить эту проблему? (разница между глубоким и поверхностным копированием)?
+- `Антипаттерны` в Objective-C?
 
 Memory Management:
 ------------------
