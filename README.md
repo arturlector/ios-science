@@ -1,7 +1,7 @@
 Вопросы на собеседование iOS-разработчика
 ==
 
-Вопросов: 167 | Ответов: 41
+Вопросов: 168 | Ответов: 41
 --------
 
 
@@ -42,6 +42,7 @@ Objective-C, Foundation:
 ------------------------
 - Опишите `основные понятия ОО программирования` в терминах Objective-C (`интерфейс, реализация, свойства, протоколы,` и т.д)?
 - Что такое `свойство (property)`? [[+]](https://gist.github.com/arthurigberdin/d9105edc388f25ebe1ae)
+- Синтаксис с подчеркиванием и dot notation для обращения к свойства? Когда что использовать? [[+]](https://gist.github.com/arthurigberdin/94643889379450f74fc1)
 - Что такое `назначенный инициализатор (designated initializer)`? Приведите пример назначенного инициализатора (имеется ввиду `if (self  = [super ...])`)? [[+]](https://gist.github.com/arthurigberdin/ec6f06ba14ba9d175252)
 - Суть `рантайма (Runtime), отправление сообщения`? Как работает Runtime? [[+]](https://gist.github.com/arthurigberdin/811ab333c46b4fa2a46f)
 - Объявление `свойств (property): retain, assign, nonatomic, readonly, copy`?  [[+]](https://gist.github.com/arthurigberdin/a995a091d3df97d8adac)
