@@ -45,6 +45,7 @@ Objective-C, Foundation:
 - Синтаксис с подчеркиванием и dot notation для обращения к свойства? Когда что использовать? [[+]](https://gist.github.com/arthurigberdin/94643889379450f74fc1)
 - Что такое `назначенный инициализатор (designated initializer)`? Приведите пример назначенного инициализатора (имеется ввиду `if (self  = [super ...])`)? [[+]](https://gist.github.com/arthurigberdin/ec6f06ba14ba9d175252)
 - Суть `рантайма (Runtime), отправление сообщения`? Как работает Runtime? [[+]](https://gist.github.com/arthurigberdin/811ab333c46b4fa2a46f)
+- Как добавить свойство в существующий объект с закрытой реализацией? Можно ли это сделать через runtime? [[+]](https://gist.github.com/arthurigberdin/6df58c356bfca9655ffa)
 - Объявление `свойств (property): retain, assign, nonatomic, readonly, copy`?  [[+]](https://gist.github.com/arthurigberdin/a995a091d3df97d8adac)
 - С подвохом: вопрос о несуществующем параметре `atomic`, что он означает? 
 - Приведите пример кейса с использованием `atomic`? [[+]](https://gist.github.com/arthurigberdin/b33d31ec5f994b228a0e)
