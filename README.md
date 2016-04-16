@@ -39,6 +39,7 @@ General:
 
 Swift
 ----------
+- `Фундаментальные` типы и `коллекции`? [[+]](https://gist.github.com/arthurigberdin/02575edda45a33c0f68063bd49ced3a9)
 - Aттрибут `@UIApplicationMain` ?
 - Что такое `Bridge Header`? Как использовать Objective-C код в Swift проекте?
 - Оператор `guard`?
