@@ -6,26 +6,26 @@
 
 General:
 --------
-- Что такое `куча (heap)` и `стэк (stack)`? В какой памяти создаются объекты, примитивные типы и блоки? [[++]](https://gist.github.com/arthurigberdin/0f82aa713439a93f1974)
-- Что такое `полиморфизм`?  [[++]](https://gist.github.com/arthurigberdin/f59ac4b1e360b8d4e673)
+- Что такое `куча (heap)` и `стэк (stack)`? В какой памяти создаются объекты, примитивные типы и блоки? [[+]](https://gist.github.com/arthurigberdin/0f82aa713439a93f1974)
+- Что такое `полиморфизм`?  [[+]](https://gist.github.com/arthurigberdin/f59ac4b1e360b8d4e673)
 - Что такое `инкапсуляция`? Что такое `нарушение инкапсуляции`? [[+]](https://gist.github.com/arthurigberdin/73dde36439b947e28764)
-- Какие `быстрые клавиши` посоветуешь использовать? [[+]](https://gist.github.com/arthurigberdin/2b37c29e96363b5e3468)
-- Чем `абстрактный класс` отличается от `интерфейса`? [[+]](https://gist.github.com/arthurigberdin/2d959bb91c454859010c)
+- Какие `быстрые клавиши` посоветуешь использовать? [[-]](https://gist.github.com/arthurigberdin/2b37c29e96363b5e3468)
+- Чем `абстрактный класс` отличается от `интерфейса`? [[-]](https://gist.github.com/arthurigberdin/2d959bb91c454859010c)
 - Расскажите о `паттерне MVC`. Чем отличается `пассивная` модель от `активной`?[[+]](https://gist.github.com/arthurigberdin/ea1827b7628019a0dc4e)
-- Реализация `синглтона (Singleton)` в `ARC` и в `non-ARC`?[[+]](https://gist.github.com/arthurigberdin/3670dbea7d6c2e0f10f9)
+- Реализация `синглтона (Singleton)` в `ARC` и в `non-ARC`?[[-]](https://gist.github.com/arthurigberdin/3670dbea7d6c2e0f10f9)
 - Назовите основные отличия `синглтона` от `статического класса`, и когда следует использовать один, а когда другой? [[+]](https://gist.github.com/arthurigberdin/9eea0fa48405f36e592d)
-- Как пересоздать синглтон? Можно ли `обнулить объект синглтона`? [[+]](https://gist.github.com/arthurigberdin/8820aa764b0c179eea65)
+- Как пересоздать синглтон? Можно ли `обнулить объект синглтона`? [[-]](https://gist.github.com/arthurigberdin/8820aa764b0c179eea65)
 - Что такое сериализация объекта?
-- Какие еще `паттерны` знаете? Классификация паттернов? [[+]](https://gist.github.com/arthurigberdin/824796346653351a86d9)
-- Паттерны `порождающие, создания объектов (Creational): Singleton, Abstract Factory`? [[+]]()
-- Паттерны `структурные (Structural): MVC, Decorator(Categories, Delegation), Adapter(Delegation), Facade, Composite`? [[+]]()
-- Паттерны `поведения и взаимодействия объектов (Behavioral): Observer(Notification, KVO), Memento(Archiving+UserDefaults), Chain of Recponsibility, Command(Target-Action mechanism)`? [[+]]()
+- Какие еще `паттерны` знаете? Классификация паттернов? [[-]](https://gist.github.com/arthurigberdin/824796346653351a86d9)
+- Паттерны `порождающие, создания объектов (Creational): Singleton, Abstract Factory`? [[-]]()
+- Паттерны `структурные (Structural): MVC, Decorator(Categories, Delegation), Adapter(Delegation), Facade, Composite`? [[-]]()
+- Паттерны `поведения и взаимодействия объектов (Behavioral): Observer(Notification, KVO), Memento(Archiving+UserDefaults), Chain of Recponsibility, Command(Target-Action mechanism)`? [[-]]()
 - Паттерн `MVC vs MVP vs MVVM`? https://habrahabr.ru/post/215605/
 - Что такое `responder chain`?
-- Как работают `push нотификации`? [[+]](https://gist.github.com/arthurigberdin/dffa57f7268d99f96aad)
+- Как работают `push нотификации`? [[-]](https://gist.github.com/arthurigberdin/dffa57f7268d99f96aad)
 - Принципы `DRY`?
 - Принципы `KISS`? 
-- Принципы `SOLID`? [[+]](https://gist.github.com/arthurigberdin/bb53805be1b988bc9237)
+- Принципы `SOLID`? [[-]](https://gist.github.com/arthurigberdin/bb53805be1b988bc9237)
 - Что такое `IoC`? 
 - Что такое Dependency Injection?
 - Игра в `испорченный телефон`?
@@ -37,7 +37,7 @@ General:
 
 Swift
 ----------
-- `Фундаментальные` типы и `коллекции`? [[+]](https://gist.github.com/arthurigberdin/02575edda45a33c0f68063bd49ced3a9)
+- `Фундаментальные` типы и `коллекции`? [[-]](https://gist.github.com/arthurigberdin/02575edda45a33c0f68063bd49ced3a9)
 - Aттрибут `@UIApplicationMain` ?
 - Что такое `Bridge Header`? Как использовать Objective-C код в Swift проекте?
 - Оператор `guard`?
@@ -50,12 +50,12 @@ Swift
 Objective-C, Foundation:
 ------------------------
 - Опишите `основные понятия ОО программирования` в терминах Objective-C (`интерфейс, реализация, свойства, протоколы,` и т.д)?
-- Что такое `свойство (property)`? [[+]](https://gist.github.com/arthurigberdin/d9105edc388f25ebe1ae)
-- Синтаксис с подчеркиванием и dot notation для обращения к свойства? Когда что использовать? [[+]](https://gist.github.com/arthurigberdin/94643889379450f74fc1)
-- Что такое `назначенный инициализатор (designated initializer)`? Приведите пример назначенного инициализатора (имеется ввиду `if (self  = [super ...])`)? [[+]](https://gist.github.com/arthurigberdin/ec6f06ba14ba9d175252)
-- Суть `рантайма (Runtime), отправление сообщения`? Как работает Runtime? [[+]](https://gist.github.com/arthurigberdin/811ab333c46b4fa2a46f)
-- Как добавить свойство в существующий объект с закрытой реализацией? Можно ли это сделать через runtime? [[+]](https://gist.github.com/arthurigberdin/6df58c356bfca9655ffa)
-- Объявление `свойств (property): retain, assign, nonatomic, readonly, copy`?  [[+]](https://gist.github.com/arthurigberdin/a995a091d3df97d8adac)
+- Что такое `свойство (property)`? [[-]](https://gist.github.com/arthurigberdin/d9105edc388f25ebe1ae)
+- Синтаксис с подчеркиванием и dot notation для обращения к свойства? Когда что использовать? [[-]](https://gist.github.com/arthurigberdin/94643889379450f74fc1)
+- Что такое `назначенный инициализатор (designated initializer)`? Приведите пример назначенного инициализатора (имеется ввиду `if (self  = [super ...])`)? [[-]](https://gist.github.com/arthurigberdin/ec6f06ba14ba9d175252)
+- Суть `рантайма (Runtime), отправление сообщения`? Как работает Runtime? [[-]](https://gist.github.com/arthurigberdin/811ab333c46b4fa2a46f)
+- Как добавить свойство в существующий объект с закрытой реализацией? Можно ли это сделать через runtime? [[-]](https://gist.github.com/arthurigberdin/6df58c356bfca9655ffa)
+- Объявление `свойств (property): retain, assign, nonatomic, readonly, copy`?  [[-]](https://gist.github.com/arthurigberdin/a995a091d3df97d8adac)
 - С подвохом: вопрос о несуществующем параметре `atomic`, что он означает? 
 - Приведите пример кейса с использованием `atomic`? [[+]](https://gist.github.com/arthurigberdin/b33d31ec5f994b228a0e)
 - Как правильно реализовать сетер для свойства с параметром retain?
@@ -63,17 +63,17 @@ Objective-C, Foundation:
 - Можно ли чтобы разные классы реализовывали один протокол. (ClassA, ClassB и ClassC - реализуют ClassCProtocol)?
 - Для чего нужен @dynamic, приведите примеры использования?
 - Для чего нужен @synthesize, приведите примеры использования?
-- В чем разница между `точечной нотацией` и использованием квадратных скобок? [[+]](https://gist.github.com/arthurigberdin/45af3eefeb936133c8c5)
+- В чем разница между `точечной нотацией` и использованием квадратных скобок? [[-]](https://gist.github.com/arthurigberdin/45af3eefeb936133c8c5)
 - Что происходит когода мы пытаемся вызвать метод у nil указателя? Разница между nil и Nil и [NSNull null]?
-- Что такое `селектор (selector)`? Как его вызвать? как отложить вызов селектора? Что делать если селектор имеет много параметров? `(NSInvocation)` Как запустить селектор во второстепенном `(фоновом) потоке`? [[+]](https://gist.github.com/arthurigberdin/8a3a264810ee97927d19)
+- Что такое `селектор (selector)`? Как его вызвать? как отложить вызов селектора? Что делать если селектор имеет много параметров? `(NSInvocation)` Как запустить селектор во второстепенном `(фоновом) потоке`? [[-]](https://gist.github.com/arthurigberdin/8a3a264810ee97927d19)
 - Как запустить `поток`? Что первым нужно сделать при запуске `потока`?
 - `(NSAutoreleasePool)` Что такое `runLoop`, кодга он используется? `(timers, nsurlconnection ...)`?
 - Что такое `делегат (delegate)`? как его создать и использовать? [[+]](https://gist.github.com/arthurigberdin/1304fb056c85f3fd8535)
-- В чем отличия коммуникационных паттернов? (`Notification` vs `Delegates` vs `Observing`)? [[+]](https://gist.github.com/arthurigberdin/3b1e2a1598efa76a5655)
+- В чем отличия коммуникационных паттернов? (`Notification` vs `Delegates` vs `Observing`)? [[-]](https://gist.github.com/arthurigberdin/3b1e2a1598efa76a5655)
 - Что такое `AppDelegate`? Зачем он нужен? [[+]](https://gist.github.com/arthurigberdin/780eafb581fb2f72dec3)
 - Управление `колбэками (callbacks)`: `Selectors` vs `Delegate prototocls` vs `Blocks`?
 - `Blocks`. Лучшие практики?
-- Как `использовать` self внутри блоков? Приведите пример `retain cycle` в блоке? [[+]](https://gist.github.com/arthurigberdin/67a2e19c09f3c26eb926)
+- Как `использовать` self внутри блоков? Приведите пример `retain cycle` в блоке? [[-]](https://gist.github.com/arthurigberdin/67a2e19c09f3c26eb926)
 - Как представлены `Си-структуры` (CGRect, CGSize, CGPoint) в Objective-C?
 - Чем объект Objective-С отличается от Си-структуры, что такое структура в C?
 - Какие существуют `root классы` в iOS? Для чего нужны `root классы`? [[+]](https://gist.github.com/arthurigberdin/83032db4d6d18f9bf399)
@@ -83,14 +83,14 @@ Objective-C, Foundation:
 
 - Что такое `указатель isa`? Для чего он нужен? [[+]](https://gist.github.com/arthurigberdin/c12de01c73f9c90c2f9c)
 - Цепочка ответсвенности, что происходит с методом после того как он не нашелся в объекте класса, которому его вызвали (в сторону forwardInvocation:)? [[+]](https://gist.github.com/arthurigberdin/f0a0378b305d48173cc7)
-- Чем `категория` отличается от `расширения` (extension, наименованная категория)? [[+]](https://gist.github.com/arthurigberdin/ec9ac3bfd013522fb7c3)
+- Чем `категория` отличается от `расширения` (extension, наименованная категория)? [[-]](https://gist.github.com/arthurigberdin/ec9ac3bfd013522fb7c3)
 - Можно ли добавить `ivar` в категорию? [[+]](https://gist.github.com/arthurigberdin/26b85da45706a4a2aa34)
 - Когда лучше использовать `категорию`, а когда `наследование`? [[+]](https://gist.github.com/arthurigberdin/5b09bcc3c6947ba25329)
 - Что такое `notifications (уведомления)`? как мы должны их использовать?
-- Какая разница между использованием `делегатов (delegation)` и `нотификейшенов (notification)`? [[+]](https://gist.github.com/arthurigberdin/ee09ee7d0ae237a3fdc3) [[+]](https://gist.github.com/arthurigberdin/3b1e2a1598efa76a5655)
-- В чем разница между `NSArray и NSMutableArray`? непотоко-безопасный NSMutableArray? [[+]](https://gist.github.com/arthurigberdin/ed8aa7dfaea3b28ef467)
-- Чем отличается `NSSet от NSArray`? Какие `операции` происходят быстро в `NSSet` и какие в `NSArray`? [[+]](https://gist.github.com/arthurigberdin/82557661c44d81e85bc1)
-- `Формальный и неформальный (informal)` протокол? `Протоколы (protocols)`: основные отличия между c#/java интерфейсами и Objective-C протоколами? Что делать в случае если класс не реализует какой-то метод из протокола? [[+]](https://gist.github.com/arthurigberdin/da734c67aa6fad9f1d68)
+- Какая разница между использованием `делегатов (delegation)` и `нотификейшенов (notification)`? [[-]](https://gist.github.com/arthurigberdin/ee09ee7d0ae237a3fdc3) [[+]](https://gist.github.com/arthurigberdin/3b1e2a1598efa76a5655)
+- В чем разница между `NSArray и NSMutableArray`? непотоко-безопасный NSMutableArray? [[-]](https://gist.github.com/arthurigberdin/ed8aa7dfaea3b28ef467)
+- Чем отличается `NSSet от NSArray`? Какие `операции` происходят быстро в `NSSet` и какие в `NSArray`? [[-]](https://gist.github.com/arthurigberdin/82557661c44d81e85bc1)
+- `Формальный и неформальный (informal)` протокол? `Протоколы (protocols)`: основные отличия между c#/java интерфейсами и Objective-C протоколами? Что делать в случае если класс не реализует какой-то метод из протокола? [[-]](https://gist.github.com/arthurigberdin/da734c67aa6fad9f1d68)
 - Есть ли `приватные и защищенные` методы в Objective-C? [[+]](https://gist.github.com/arthurigberdin/c09a5a930ec34d86d091)
 - Что такое `быстрое перечисление (fast enumeration)`? 
 - Что такое `KVO`? Когда его нужно использовать? Методы для обозревания объектов? Работает ли `KVO с instance переменными (полями)` объекта?
