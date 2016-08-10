@@ -4,54 +4,10 @@
 Вопросов: 176 | Ответов: 40
 --------
 
-General:
---------
-- Что такое `куча (heap)` и `стэк (stack)`? В какой памяти создаются объекты, примитивные типы и блоки? [[+]](https://gist.github.com/arthurigberdin/0f82aa713439a93f1974)
-- Что такое `полиморфизм`?  [[+]](https://gist.github.com/arthurigberdin/f59ac4b1e360b8d4e673)
-- Что такое `инкапсуляция`? Что такое `нарушение инкапсуляции`? [[+]](https://gist.github.com/arthurigberdin/73dde36439b947e28764)
-- Какие `быстрые клавиши` посоветуешь использовать? [[-]](https://gist.github.com/arthurigberdin/2b37c29e96363b5e3468)
-- Чем `абстрактный класс` отличается от `интерфейса`? [[-]](https://gist.github.com/arthurigberdin/2d959bb91c454859010c)
-- Расскажите о `паттерне MVC`. Чем отличается `пассивная` модель от `активной`?[[+]](https://gist.github.com/arthurigberdin/ea1827b7628019a0dc4e)
-- Реализация `синглтона (Singleton)` в `ARC` и в `non-ARC`?[[-]](https://gist.github.com/arthurigberdin/3670dbea7d6c2e0f10f9)
-- Назовите основные отличия `синглтона` от `статического класса`, и когда следует использовать один, а когда другой? [[+]](https://gist.github.com/arthurigberdin/9eea0fa48405f36e592d)
-- Как пересоздать синглтон? Можно ли `обнулить объект синглтона`? [[-]](https://gist.github.com/arthurigberdin/8820aa764b0c179eea65)
-- Что такое сериализация объекта?
-- Какие еще `паттерны` знаете? Классификация паттернов? [[-]](https://gist.github.com/arthurigberdin/824796346653351a86d9)
-- Паттерны `порождающие, создания объектов (Creational): Singleton, Abstract Factory`? [[-]]()
-- Паттерны `структурные (Structural): MVC, Decorator(Categories, Delegation), Adapter(Delegation), Facade, Composite`? [[-]]()
-- Паттерны `поведения и взаимодействия объектов (Behavioral): Observer(Notification, KVO), Memento(Archiving+UserDefaults), Chain of Recponsibility, Command(Target-Action mechanism)`? [[-]]()
-- Паттерн `MVC vs MVP vs MVVM`? https://habrahabr.ru/post/215605/
-- Что такое `responder chain`?
-- Как работают `push нотификации`? [[-]](https://gist.github.com/arthurigberdin/dffa57f7268d99f96aad)
-- Принципы `DRY`?
-- Принципы `KISS`? 
-- Принципы `SOLID`? [[-]](https://gist.github.com/arthurigberdin/bb53805be1b988bc9237)
-- Что такое `IoC`? 
-- Что такое Dependency Injection?
-- Игра в `испорченный телефон`?
-- Игра в `разбитые окна`?
-- Что такое `VIPER`?
-- Что такое `MVVM`?
-- Что такое `TDD`?
-- Что такое `DDD`?
-
-Swift
-----------
-- `Фундаментальные` типы и `коллекции`? [[-]](https://gist.github.com/arthurigberdin/02575edda45a33c0f68063bd49ced3a9)
-- Aттрибут `@UIApplicationMain` ?
-- Что такое `Bridge Header`? Как использовать Objective-C код в Swift проекте?
-- Оператор `guard`?
-- `Интерполяция` vs `конкатенация` строк?
-- `let` vs `var`?
-- `typealias`? Создание своего собственного типа?
-- nil в Swift vs nil в Objective-C? Различия?
-- Оператор `??`?
-
 Objective-C, Foundation:
 ------------------------
 - Опишите `основные понятия ОО программирования` в терминах Objective-C (`интерфейс, реализация, свойства, протоколы,` и т.д)?
 - Что такое `свойство (property)`? [[-]](https://gist.github.com/arthurigberdin/d9105edc388f25ebe1ae)
-- Синтаксис с подчеркиванием и dot notation для обращения к свойства? Когда что использовать? [[-]](https://gist.github.com/arthurigberdin/94643889379450f74fc1)
 - Что такое `назначенный инициализатор (designated initializer)`? Приведите пример назначенного инициализатора (имеется ввиду `if (self  = [super ...])`)? [[-]](https://gist.github.com/arthurigberdin/ec6f06ba14ba9d175252)
 - Суть `рантайма (Runtime), отправление сообщения`? Как работает Runtime? [[-]](https://gist.github.com/arthurigberdin/811ab333c46b4fa2a46f)
 - Как добавить свойство в существующий объект с закрытой реализацией? Можно ли это сделать через runtime? [[-]](https://gist.github.com/arthurigberdin/6df58c356bfca9655ffa)
@@ -355,4 +311,47 @@ Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 Additional:
 -----------------------------
 - Анкета в которой просят оценить свои знания по технологиям по 10 бальной шкале.
+
+General:
+--------
+- Что такое `куча (heap)` и `стэк (stack)`? В какой памяти создаются объекты, примитивные типы и блоки? [[+]](https://gist.github.com/arthurigberdin/0f82aa713439a93f1974)
+- Что такое `полиморфизм`?  [[+]](https://gist.github.com/arthurigberdin/f59ac4b1e360b8d4e673)
+- Что такое `инкапсуляция`? Что такое `нарушение инкапсуляции`? [[+]](https://gist.github.com/arthurigberdin/73dde36439b947e28764)
+- Какие `быстрые клавиши` посоветуешь использовать? [[-]](https://gist.github.com/arthurigberdin/2b37c29e96363b5e3468)
+- Чем `абстрактный класс` отличается от `интерфейса`? [[-]](https://gist.github.com/arthurigberdin/2d959bb91c454859010c)
+- Расскажите о `паттерне MVC`. Чем отличается `пассивная` модель от `активной`?[[+]](https://gist.github.com/arthurigberdin/ea1827b7628019a0dc4e)
+- Реализация `синглтона (Singleton)` в `ARC` и в `non-ARC`?[[-]](https://gist.github.com/arthurigberdin/3670dbea7d6c2e0f10f9)
+- Назовите основные отличия `синглтона` от `статического класса`, и когда следует использовать один, а когда другой? [[+]](https://gist.github.com/arthurigberdin/9eea0fa48405f36e592d)
+- Как пересоздать синглтон? Можно ли `обнулить объект синглтона`? [[-]](https://gist.github.com/arthurigberdin/8820aa764b0c179eea65)
+- Что такое сериализация объекта?
+- Какие еще `паттерны` знаете? Классификация паттернов? [[-]](https://gist.github.com/arthurigberdin/824796346653351a86d9)
+- Паттерны `порождающие, создания объектов (Creational): Singleton, Abstract Factory`? [[-]]()
+- Паттерны `структурные (Structural): MVC, Decorator(Categories, Delegation), Adapter(Delegation), Facade, Composite`? [[-]]()
+- Паттерны `поведения и взаимодействия объектов (Behavioral): Observer(Notification, KVO), Memento(Archiving+UserDefaults), Chain of Recponsibility, Command(Target-Action mechanism)`? [[-]]()
+- Паттерн `MVC vs MVP vs MVVM`? https://habrahabr.ru/post/215605/
+- Что такое `responder chain`?
+- Как работают `push нотификации`? [[-]](https://gist.github.com/arthurigberdin/dffa57f7268d99f96aad)
+- Принципы `DRY`?
+- Принципы `KISS`? 
+- Принципы `SOLID`? [[-]](https://gist.github.com/arthurigberdin/bb53805be1b988bc9237)
+- Что такое `IoC`? 
+- Что такое Dependency Injection?
+- Игра в `испорченный телефон`?
+- Игра в `разбитые окна`?
+- Что такое `VIPER`?
+- Что такое `MVVM`?
+- Что такое `TDD`?
+- Что такое `DDD`?
+
+Swift
+----------
+- `Фундаментальные` типы и `коллекции`? [[-]](https://gist.github.com/arthurigberdin/02575edda45a33c0f68063bd49ced3a9)
+- Aттрибут `@UIApplicationMain` ?
+- Что такое `Bridge Header`? Как использовать Objective-C код в Swift проекте?
+- Оператор `guard`?
+- `Интерполяция` vs `конкатенация` строк?
+- `let` vs `var`?
+- `typealias`? Создание своего собственного типа?
+- nil в Swift vs nil в Objective-C? Различия?
+- Оператор `??`?
 
