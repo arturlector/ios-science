@@ -6,8 +6,8 @@
 
 General:
 --------
-- Что такое `куча (heap)` и `стэк (stack)`? В какой памяти создаются объекты, примитивные типы и блоки? [[+]](https://gist.github.com/arthurigberdin/0f82aa713439a93f1974)
-- Что такое `полиморфизм`?  [[+]](https://gist.github.com/arthurigberdin/f59ac4b1e360b8d4e673)
+- Что такое `куча (heap)` и `стэк (stack)`? В какой памяти создаются объекты, примитивные типы и блоки? [[++]](https://gist.github.com/arthurigberdin/0f82aa713439a93f1974)
+- Что такое `полиморфизм`?  [[++]](https://gist.github.com/arthurigberdin/f59ac4b1e360b8d4e673)
 - Что такое `инкапсуляция`? Что такое `нарушение инкапсуляции`? [[+]](https://gist.github.com/arthurigberdin/73dde36439b947e28764)
 - Какие `быстрые клавиши` посоветуешь использовать? [[+]](https://gist.github.com/arthurigberdin/2b37c29e96363b5e3468)
 - Чем `абстрактный класс` отличается от `интерфейса`? [[+]](https://gist.github.com/arthurigberdin/2d959bb91c454859010c)
