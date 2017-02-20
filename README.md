@@ -7,7 +7,7 @@
 Objective-C, Foundation:
 ------------------------
 - [Что такое `свойство`?](#Что-такое-свойство)
-- [Объявление свойств c атрибутами: retain, assign, nonatomic, readonly, copy, weak, strong, unsafe_unretained?](#Объявление-свойств-c-атрибутами:-retain,-assign,-nonatomic,-readonly,-copy,-weak,-strong,-unsafe_unretained) 
+- [Объявление свойств c атрибутами: retain, assign, nonatomic, readonly, copy, weak, strong, unsafe_unretained?](#Объявление-свойств-c-атрибутами) 
 - Директива `@synthesize`, `@dynamic`, приведите примеры использования?
 - Как правильно реализовать сетер для свойства с параметром retain?
 - В чем разница между `точечной нотацией` и использованием квадратных скобок?
@@ -354,6 +354,6 @@ Swift
 
 Свойства создаются компилятором посредством `директивы @property` - которая автоматически создает методы доступа (сеттер/геттер), и необязательной `директивы @synthesize` - которая устанавливает `(@synthesize object = _object)` правила доступа к внутренней переменной.
 
-## Объявление свойств c атрибутами: retain, assign, nonatomic, readonly, copy, weak, strong, unsafe_unretained
+## Объявление свойств c атрибутами
 
 Атрибуты
