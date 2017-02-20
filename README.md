@@ -1,8 +1,9 @@
 Вопросы на собеседование iOS-разработчика
 ==
 
+<span style="font-family: 'Lucida Console';">
 Вопросов: 0 | Разобрано: 0
-
+</span>
 
 Objective-C, Foundation:
 ------------------------
