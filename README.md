@@ -50,6 +50,7 @@ Objective-C, Foundation:
 - Пожалуйста, объясните ключевое слово (keyword) final в классе?
 - Какую проблему решает делегирование?
 - Почему мы используем шаблон делегата для уведомления о событиях текстового поля?
+- What is the difference Delegates and Callbacks ?
 
 Memory Management:
 ------------------
@@ -88,6 +89,7 @@ Networking:
 - Как загрузить что-то из интернета? В чем разница между `синхронными и асинхронными запросами`? Небольшое задание. Опишите как загрузить изображение из интернета и отобразить его в ImageView — все это должно происходить после нажатия кнопки.
 - Что такое REST (Restful)?
 - Какую JSONSerialization имеет ReadingOptions?
+- Объясните различия в SOAP и REST?
 
 Multithreading:
 ---------------
@@ -129,6 +131,8 @@ UIKit:
 - Иерархия наследования UIButton.
 - В чем разница CollectionViews & TableViews?
 - Что такое UIStackView?
+- Какая ваша любимая библиотека визуализации диаграмм (visualize chart library)?
+- Что такое Autolayout?
 
 CoreData, Persistency:
 ----------------------
@@ -173,6 +177,7 @@ iOS Platform:
 - Каковы самые важные методы делегирования в приложении, с которыми будет сталкиваться разработчик?
 - Какого разрешение экранов iphon'ов, и в чем разница между `points (точками)` и `пикселями (pixels)`?
 - Что такое `responder chain`?
+- Какие типы нотификаций есть в iOS?
 - Как работают `push нотификации`?
 - Какие ограничение есть у платформы iOS?
 - Какие ограничение есть у платформы tvOS?
@@ -185,12 +190,14 @@ iOS Platform:
 - Каковы три основных улучшения отладки в Xcode 8?
 - Что такое биткод (bitcode)?
 - Какие есть ограничения (limits) у SiriKit?
+- Что нового в iOS 10?
+- Что такое GraphQL?
 
 Architecture
 ------------
 - SOLID?
 - Алгоритмическая сложность (big-o notation)?
-- Что такое `VIPER`?
+- Что такое `VIPER` архитектура?
 - What is the difference open & public access level?
 - What is the difference fileprivate & private access level?
 - Что такое внутренний доступ (internal access)?
@@ -201,19 +208,24 @@ Architecture
 - Принципы `DRY`?
 - Принципы `KISS`? 
 - Что такое `IoC`? 
-- Что такое Dependency Injection?
+- Где мы используем Dependency Injection?
+- Когда подходящее время для внедрения зависимостей (dependency injection) в наши проекты?
+- Explain Priority Inversion and Priority Inheritance?
 - Clean Architecture?
 - Каковы главные цели фреймворков (framework)?
 - Which of the communication methods allows for a loosely coupled, one-to-many pattern and one-to-one pattern?
 - Игра в `разбитые окна`?
 - Объясните разницу между SDK и Framework?
+- В чем недостаток жесткого кодирования? (What is the disadvantage to hard-coding log statements?)
 
-Unit Testing:
+Unit Testing
+-----------
 - Что такое RGR ( Red — Green — Refactor )?
 - Объясните “Arrange-Act-Assert”?
 - Какие преимущества в написании тестов в приложениях?
 - Опишите Test Driven Development в трех простых правилах?
 - Что такое TDD?
+- Что такое Continuous Integration?
 
 Programming:
 --------
@@ -244,6 +256,7 @@ General:
 - Что означает бритье Яка (Yak Shaving)?
 - Каковы пять основных практических рекомендаций для улучшения типографического качества (typographic quality) мобильных проектов?
 - Что такое Alamofire?
+- Вы раньше работали в качестве подрядчика?Have you worked as a contractor before?
 
 Паттерны:
 --------
@@ -260,7 +273,9 @@ General:
 Git:
 ----
 - В чем разница между SVN и Git?
-- 
+- Какая команда Git позволяет объединить коммиты?
+- Какая команда Git позволяет нам найти плохие коммиты?
+- Какая команда Git сохраняет ваш код без коммита?
 
 Структуры данных:
 ----------------
