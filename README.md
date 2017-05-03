@@ -94,6 +94,7 @@ Networking:
 Multithreading:
 ---------------
 - В чем разница между синхронным и асинхронным таском (задачей)?
+- Что такое блоки (blocks)?
 - Что такое обработчик завершения (completion handler)?
 - Что такое параллелизм (concurrency)?
 - Блокировки читателей-писателей (readers-writers lock)?
@@ -138,6 +139,7 @@ CoreData, Persistency:
 ----------------------
 - Какие есть типы хранилищ (data percistency) и какую стратегию хранения использовать в том или ином случае?
 - Какие есть лимиты у JSON/PLIST?
+- Что такое Keychain?
 - Какие есть лимиты у SQLite?
 - Какие есть преимущества у Realm?
 - Что такое `нормализация` данных?
@@ -192,6 +194,8 @@ iOS Platform:
 - Какие есть ограничения (limits) у SiriKit?
 - Что нового в iOS 10?
 - Что такое GraphQL?
+- What is the biggest changes in UserNotifications?
+- Как получить токен устройства (device token)?
 
 Architecture
 ------------
