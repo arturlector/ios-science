@@ -1,10 +1,10 @@
-
-
-<span style="font-family: 'Raleway';">
-</span>
 Вопросы на собеседование iOS-разработчика
 ==
-Вопросов: 0 
+Тем: 21 | Вопросов: 150 
+
+<span style="font-family: 'Raleway';">
+
+</span>
 
 Objective-C, Foundation:
 ------------------------
@@ -448,6 +448,7 @@ Additional:
 - 10. Core Animation
 - 11. Unit Testing
 - 12. Git
+- 13. Patterns and Antipatterns
 
 
 Swift
