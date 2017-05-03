@@ -196,6 +196,7 @@ iOS Platform:
 - Что такое GraphQL?
 - What is the biggest changes in UserNotifications?
 - Как получить токен устройства (device token)?
+- Какие ограничения (limits) у Remote Notifications?
 
 Architecture
 ------------
@@ -261,6 +262,8 @@ General:
 - Каковы пять основных практических рекомендаций для улучшения типографического качества (typographic quality) мобильных проектов?
 - Что такое Alamofire?
 - Вы раньше работали в качестве подрядчика?Have you worked as a contractor before?
+- Что такое управление зависимостями (Dependency Management)?
+- Что такое диаграммы классов UML?
 
 Паттерны:
 --------
