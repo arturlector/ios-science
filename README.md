@@ -1,7 +1,7 @@
 Вопросы на собеседование iOS-разработчика
 ==
 
-<span style="font-family: 'Lucida Console';">
+<span style="font-family: 'Raleway';">
 Вопросов: 0 | Разобрано: 0
 </span>
 
