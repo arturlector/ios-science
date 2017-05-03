@@ -7,8 +7,8 @@
 
 Objective-C, Foundation:
 ------------------------
-- [Что такое `свойство`?](#Что-такое-свойство)
-- Как правильно реализовать сетер для свойства с параметром retain?
+- Что такое `свойство`?
+- Как правильно реализовать сеттер для свойства с параметром retain?
 - Директива `@synthesize`, `@dynamic`, чем отличаются друг от друга?
 - В чем разница между `точечной нотацией` и использованием квадратных скобок?
 - Есть ли `приватные и защищенные` методы в Objective-C? 
@@ -27,6 +27,7 @@ Objective-C, Foundation:
 - Что такое `notifications (уведомления)`?
 - Какая разница между использованием `делегатов (delegation)` и `нотификейшенов (notification)`?
 - Какая разница между использованием селекторов, делегатов и блоков?
+- В чем отличия KVC-KVO?
 - Что такое `KVO`? Когда его нужно использовать? Методы для обозревания объектов? Работает ли `KVO с instance переменными (полями)` объекта?
 - Что такое `KVC`? Когда его нужно использовать?
 - Какие существуют `root классы` в iOS? Для чего нужны `root классы`? 
@@ -46,6 +47,9 @@ Objective-C, Foundation:
 - Что представляет собой объект NSError?
 - Что такое динамическая диспетчеризация (Dynamic Dispatch)?
 - Сколько различных аннотаций (annotations) доступно в Objective-C?
+- Пожалуйста, объясните ключевое слово (keyword) final в классе?
+- Какую проблему решает делегирование?
+- Почему мы используем шаблон делегата для уведомления о событиях текстового поля?
 
 Memory Management:
 ------------------
@@ -79,20 +83,26 @@ Networking:
 ----------
 - Преимущества и недостатки `синхронного и асинхронного` соединения?
 - Что означает `http, tcp`?
+- REST, HTTP, JSON. Что это?
 - Какие различия между `HEAD, GET, POST, PUT`? 
 - Как загрузить что-то из интернета? В чем разница между `синхронными и асинхронными запросами`? Небольшое задание. Опишите как загрузить изображение из интернета и отобразить его в ImageView — все это должно происходить после нажатия кнопки.
 - Что такое REST (Restful)?
+- Какую JSONSerialization имеет ReadingOptions?
 
 Multithreading:
 ---------------
 - В чем разница между синхронным и асинхронным таском (задачей)?
-- Что такое обработчик завершения (Completion Handler)?
+- Что такое обработчик завершения (completion handler)?
+- Что такое параллелизм (concurrency)?
+- Блокировки читателей-писателей (readers-writers lock)?
 - С подвохом: вопрос о несуществующем параметре `atomic`, что он означает? Приведите пример кейса с использованием `atomic`?
 - Как многопоточность работает с `UIKit`?
 - Как запустить селектор в `(фоновом) потоке`?
 - Как запустить `поток (thread)`? Что первым нужно сделать при запуске `потока`?
 - Что такое `GCD`? Как `GCD` связан с многопоточностью? Типы queue и queue == thread?
 - `NSOperation` vs `GCD`?
+- Что такое Dispatch Group?
+- NSOperation — NSOperationQueue — NSBlockOperation?
 - Что такое `deadlock`?
 - Что такое `livelock`?
 - Что такое `семафор (semafor)`?
@@ -108,7 +118,7 @@ Multithreading:
 UIKit:
 ------
 - Разница между свойствами `bounds и frame` объекта UIView? Понимание системы координат?
-- Цикл жизни `UIViewController`?
+- Цикл жизни `View Controller`?
 - Что такое `View` (представление) и что такое `window` и цикл жизни `UIView`?
 - Что такое `Responder Chain` (цепочка обязанностей, `паттерн chain of responsibility`, на примере UI компонентов iOS ), `becomeFirstResponder`.
 - Что означают `IBOutlet` и `IBAction`, для чего они нужны, и что значат для препроцессора?
@@ -117,16 +127,23 @@ UIKit:
 - Почему мы должны `релизить IBOutlet'ты` во viewDidUnload?
 - Что такое `awakeFromNib`, в чем разница между `xib и nib` файлами?
 - Иерархия наследования UIButton.
+- В чем разница CollectionViews & TableViews?
+- Что такое UIStackView?
 
 CoreData, Persistency:
 ----------------------
 - Какие есть типы хранилищ (data percistency) и какую стратегию хранения использовать в том или ином случае?
+- Какие есть лимиты у JSON/PLIST?
+- Какие есть лимиты у SQLite?
+- Какие есть преимущества у Realm?
 - Что такое `нормализация` данных?
 - Что такое `Core Data`?
+- Что такое NSFetchRequest?
+- Что такое NSPersistentContainer?
+- Использовали ли `NSFetchedResultsController`? Почему? 
 - Что такое `контекст (Managed object context)`? Как происходят `изменения в NSManagedObjectContext`?
 - Что такое `Persistent store coordinator`? Зачем нужен `NSPersistentStoreCoordinator`?
 - Зачем нужно делать `двустороннии связи` в таблицах?
-- Использовали ли `NSFetchedResultsController`? Почему? 
 - Что таке `Fetched Property` и особенности работы с ним по сравнению с обычной связью?
 - Что такое `Fault` и зачем он нужен?
 - В каких случаях лучше использовать `SQLite`, а в каких `Core Data`?
@@ -151,22 +168,32 @@ CoreAnimation, CoreGraphics:
 
 iOS Platform:
 ------------
-- Какие бывают `состояния` у приложения?
-- Жизненный цикл приложения? Что представляет из себя `application delegate`?
+- Какие бывают `состояния` (states) у приложения?
+- Жизненный цикл приложения?
+- Каковы самые важные методы делегирования в приложении, с которыми будет сталкиваться разработчик?
 - Какого разрешение экранов iphon'ов, и в чем разница между `points (точками)` и `пикселями (pixels)`?
 - Что такое `responder chain`?
 - Как работают `push нотификации`?
 - Какие ограничение есть у платформы iOS?
 - Какие ограничение есть у платформы tvOS?
-- Что такое Code Coverage?
-- Что такое TVMLKit
+- Что такое Code Coverage (покрытие кода)?
+- Что делает подписание кода (code signing)?
+- Что такое TVMLKit?
 - Что такое ABI?
+- Что такое #keyPath()?
+- Что IGListKit дает разработчикам?
+- Каковы три основных улучшения отладки в Xcode 8?
+- Что такое биткод (bitcode)?
+- Какие есть ограничения (limits) у SiriKit?
 
 Architecture
 ------------
 - SOLID?
 - Алгоритмическая сложность (big-o notation)?
 - Что такое `VIPER`?
+- What is the difference open & public access level?
+- What is the difference fileprivate & private access level?
+- Что такое внутренний доступ (internal access)?
 - Что такое `TDD` vs.`BDD`?
 - Что такое `DDD`?
 - Расскажите о `паттерне MVC`. Чем отличается `пассивная` модель от `активной`?
@@ -176,6 +203,17 @@ Architecture
 - Что такое `IoC`? 
 - Что такое Dependency Injection?
 - Clean Architecture?
+- Каковы главные цели фреймворков (framework)?
+- Which of the communication methods allows for a loosely coupled, one-to-many pattern and one-to-one pattern?
+- Игра в `разбитые окна`?
+- Объясните разницу между SDK и Framework?
+
+Unit Testing:
+- Что такое RGR ( Red — Green — Refactor )?
+- Объясните “Arrange-Act-Assert”?
+- Какие преимущества в написании тестов в приложениях?
+- Опишите Test Driven Development в трех простых правилах?
+- Что такое TDD?
 
 Programming:
 --------
@@ -184,12 +222,15 @@ Programming:
 - Что такое `инкапсуляция`? Что такое `нарушение инкапсуляции`?
 - Чем `абстрактный класс` отличается от `интерфейса`?
 - Что такое сериализация объекта?
-- Игра в `разбитые окна`?
 - Что такое `регулярные выражения` (regular expression)?
 - Что такое `перегрузка операторов (operator overloading)`?
 - Что такое `указатель` (pointer)?
 - Что такое `функция` (function)?
-
+- Как передавать переменную как ссылку?
+- Что такое `класс`?
+- Что такое `объект`?
+- Что такое `интерфейс`?
+- Когда и почему мы используем объект вместо структур?
 
 General:
 - Ваше любимое видео с WWDC?
@@ -197,6 +238,12 @@ General:
 - Что нового появилось в iOS 10/iOS 9?
 - Что такое парное программирование?
 - Что такое ограничивающая рамка (bounding box)?
+- Сколько есть API'шек для эффективного отслеживания местоположения?
+- Какое самое главное преимущество у Swift?
+- Что делает React Native специальным для iOS?
+- Что означает бритье Яка (Yak Shaving)?
+- Каковы пять основных практических рекомендаций для улучшения типографического качества (typographic quality) мобильных проектов?
+- Что такое Alamofire?
 
 Паттерны:
 --------
@@ -209,6 +256,11 @@ General:
 - Реализация `Cинглтона` (Singleton) в `ARC` и в `non-ARC`?
 - Назовите основные отличия `синглтона` от `статического класса`, и когда следует использовать один, а когда другой? 
 - Как пересоздать синглтон? Можно ли `обнулить объект синглтона`?
+
+Git:
+----
+- В чем разница между SVN и Git?
+- 
 
 Структуры данных:
 ----------------
@@ -250,8 +302,7 @@ int i = [s intValue];
 - Сработает ли `таймер`? Почему? 
 
 ```objc
-void startTimer(void *threadId) 
-{
+void startTimer(void *threadId) {
    [NSTimer  scheduleTimerWithTimeInterval:10.0f 
       target:aTarget 
           selector:@selector(tick: ) 
@@ -270,8 +321,7 @@ pthread_create(&thread, NULL, startTimer, (void *)t);
 @end
 
 @implementation A
-- (void)someMethod
-{
+- (void)someMethod {
     NSLog(@"This is class A");
 }
 @end
@@ -280,8 +330,7 @@ pthread_create(&thread, NULL, startTimer, (void *)t);
 @end
 
 @implementation B
-- (void)someMethod 
-{
+- (void)someMethod  {
     NSLog(@"This is class B");
 }
 @end
@@ -290,8 +339,7 @@ pthread_create(&thread, NULL, startTimer, (void *)t);
 @end
 
 @implementation C
-- (void)method 
-{
+- (void)method  {
     A *a = [B new];
     [a someMethod];
 }
@@ -307,24 +355,19 @@ pthread_create(&thread, NULL, startTimer, (void *)t);
 - Что выведется в консоль? Почему?
 
 ```objc
-- (BOOL)objectsCount
-{
+- (BOOL)objectsCount {
     NSMutableArray *array = [NSMutableArray new];
-    for (NSInteger i = 0; i < 1024; i++) 
-    {
+    for (NSInteger i = 0; i < 1024; i++) {
         [array addObject:[NSNumber numberWithInt:i]];
     }
     return array.count;
 }
 
-- (void)someMethod 
-{
-    if ([self objectsCount]) 
-    {
+- (void)someMethod {
+    if ([self objectsCount]) {
         NSLog(@"has objects");
     }
-    else
-    {
+    else {
         NSLog(@"no objects");
     }
 }
@@ -350,8 +393,7 @@ pthread_create(&thread, NULL, startTimer, (void *)t);
  dispatch_async(dispatch_get_main_queue(), ^
     {
         NSLog(@"A %d", [object retainCount]);
-        dispatch_async(dispatch_get_main_queue(), ^
-        {
+        dispatch_async(dispatch_get_main_queue(), ^{
             NSLog(@"B %d", [object retainCount]);
         });
         NSLog(@"C %d", [object retainCount]);
@@ -375,7 +417,10 @@ Additional:
 - 6. Multithreading
 - 7. UIKit
 - 8. CoreData, Persistency
-- 
+- 9. Design Patterns
+- 10. Core Animation
+- 11. Unit Testing
+- 12. Git
 
 
 Swift
@@ -389,10 +434,4 @@ Swift
 - `typealias`? Создание своего собственного типа?
 - nil в Swift vs nil в Objective-C? Различия?
 - Оператор `??`?
-
-### Что такое свойство
-
-`Свойства` - механизм автоматического создания `методов доступа` (getter/setter) для `внутренней переменной` класса (ivar), который появился в Objective-C 2.0
-
-Свойства объявляются посредством `директивы @property` - компилятор автоматически создает методы доступа (сеттер/геттер), и необязательной `директивы @synthesize` - которая устанавливает `(@synthesize object = _object)` правила доступа к внутренней переменной.
 
