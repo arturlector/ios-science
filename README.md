@@ -1,7 +1,7 @@
 
 
 <span style="font-family: 'Raleway';">
-
+</span>
 Вопросы на собеседование iOS-разработчика
 ==
 Вопросов: 0 
@@ -54,7 +54,7 @@ Objective-C, Foundation:
 - What is the difference Delegates and Callbacks ?
 
 
-</span>
+
 
 
 Memory Management:
