@@ -1,6 +1,6 @@
 Вопросы на собеседование iOS-разработчика
 ==
-Тем: 21 | Вопросов: 150 
+Тем: 20 | Вопросов: свыше 150 
 
 <span style="font-family: 'Raleway';">
 
@@ -438,17 +438,18 @@ Additional:
 - Анкета в которой просят оценить свои знания по технологиям по 10 бальной шкале.
 - 1. Objective-C
 - 2. C
-- 3. iOS Platform
-- 4. Architecture
-- 5. Memory Management
-- 6. Multithreading
-- 7. UIKit
-- 8. CoreData, Persistency
-- 9. Design Patterns
-- 10. Core Animation
+- 3. Swift
+- 4. iOS Platform
+- 5. Architecture
+- 6. Memory Management
+- 7. Multithreading
+- 8. UIKit
+- 9. CoreData, Persistency
+- 10. Design Patterns
 - 11. Unit Testing
 - 12. Git
-- 13. Patterns and Antipatterns
+- 13. Core Animation
+
 
 
 Swift
