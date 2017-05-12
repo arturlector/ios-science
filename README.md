@@ -54,12 +54,8 @@ Objective-C, Foundation:
 - What is the difference Delegates and Callbacks ?
 
 
-
-
-
 Memory Management:
 ------------------
-- Зачем мы используем synchronized?
 - Объявление свойств c атрибутами: `retain`, `assign`, `nonatomic`, `readonly`, `copy`, `weak`, `strong`, `unsafe_unretained`?
 - Реализуйте следующие методы: `retain/release/autorelease`?
 - Почему мы не используем strong для enum свойств?
@@ -98,8 +94,10 @@ Networking:
 
 Multithreading:
 ---------------
+- Зачем мы используем synchronized?
 - В чем разница между синхронным и асинхронным таском (задачей)?
 - Что такое блоки (blocks)?
+- Какие типы блоков вы знаете (глобальные/локальные, heap/stack)?
 - Что такое обработчик завершения (completion handler)?
 - Что такое параллелизм (concurrency)?
 - Блокировки читателей-писателей (readers-writers lock)?
@@ -205,7 +203,9 @@ iOS Platform:
 
 Architecture
 ------------
+- Если вам нужно сделать рефакторинг, с чего бы вы начали?
 - SOLID?
+- Что такое protocol oriented programming?
 - Алгоритмическая сложность (big-o notation)?
 - Что такое `VIPER` архитектура?
 - What is the difference open & public access level?
