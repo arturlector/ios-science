@@ -436,21 +436,21 @@ Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 Additional:
 -----------------------------
 - Анкета в которой просят оценить свои знания по технологиям по 10 бальной шкале.
-- 1. Objective-C
-- 2. C
-- 3. Swift
-- 4. iOS Platform
-- 5. Architecture
-- 6. Memory Management
-- 7. Multithreading
-- 8. UIKit
-- 9. CoreData, Persistency
-- 10. Design Patterns
-- 11. Unit Testing
-- 12. Git
-- 13. Core Animation
-- 14. Algorithms and Data Structure
-- 15. Networking
+ 1. Objective-C
+ 2. C
+ 3. Swift
+ 4. iOS Platform
+ 5. Architecture
+ 6. Memory Management
+ 7. Multithreading
+ 8. UIKit
+ 9. CoreData, Persistency
+ 10. Design Patterns
+ 11. Unit Testing
+ 12. Git
+ 13. Core Animation
+ 14. Algorithms and Data Structure
+ 15. Networking
 
 
 
